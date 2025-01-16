@@ -1,12 +1,12 @@
 import React from "react";
 import { IoSendOutline } from "react-icons/io5";
-import qrCode from "../assets/Qrcode.png";
-import appleStore from "../assets/appleStore.png";
-import googlePlay from "../assets/googlePlay.png";
+import qrCode from "../../assets/Qrcode.png";
+import appleStore from "../../assets/appleStore.png";
+import googlePlay from "../../assets/googlePlay.png";
 const Footer = () => {
   return (
     <>
-    <div className="grid grid-cols-5 bg-black text-white p-1 sm:p-3">
+    <div className="grid grid-cols-5 bg-black text-white px-1 sm:py-8 sm:px-2">
       <div>
         <h2 className="text-xl font-semibold">Exclusive</h2>
         <p className="text-sm mt-3">Subscribe</p>

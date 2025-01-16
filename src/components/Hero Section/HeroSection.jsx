@@ -1,7 +1,8 @@
 import React from "react";
 import { FaApple } from "react-icons/fa";
 import { MdArrowRightAlt } from "react-icons/md";
-import apple from '../assets/apple.png'
+import apple from '../../assets/apple.png'
+
 const HeroSection = () => {
   return (
     <div className="bg-black flex items-center justify-between p-5 text-white">
